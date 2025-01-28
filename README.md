@@ -6,7 +6,7 @@ Welcome to **Quiz Hub**, your one-stop destination for fun, learning, and challe
 
 ## 🔗 Live Page
 
-Check out the live version of the app here: [Quiz Hub Live](#) 🌐✨
+Check out the live version of the app here: [Quiz Hub Live](https://hummingcoder.github.io/Quiz-App/) 🌐✨
 
 ---
 

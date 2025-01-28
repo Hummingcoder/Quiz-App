@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 
 const Home = ({ getLink }) => {
   const [categories, setCategories] = useState([

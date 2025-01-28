@@ -19,7 +19,7 @@ const EndScreen = ({ scores, getLink }) => {
         </p>
         <button
           onClick={() => getLink("home")}
-          className="w-fit self-end  uppercase m-2 mt-8 border border-black px-6 py-1 rounded-md shadow-md bg-gradient-to-b from-yellow-100 to-yellow-500 text-black"
+          className="w-fit self-end cursor-pointer uppercase m-2 mt-8 border border-black px-6 py-1 rounded-md shadow-md bg-gradient-to-b from-yellow-100 to-yellow-500 text-black"
         >
           play again
         </button>
