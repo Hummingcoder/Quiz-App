@@ -75,12 +75,7 @@ const App = () => {
   if (!isOnline) {
     return (
       <div className="w-full h-screen flex flex-col gap-1 items-center justify-center shadow-md p-2 border rounded-md ">
-        <img
-          className="w-[80%] h-[300px] object-contain max-w-[380px] "
-          src="offline.png"
-          alt="loading please wait"
-        />
-        <p>unable to connect</p>
+        <p>⛓️‍💥unable to connect⛓️‍💥</p>
       </div>
     );
   }
