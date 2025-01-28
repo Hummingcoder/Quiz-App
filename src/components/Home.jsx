@@ -30,7 +30,7 @@ const Home = ({ getLink }) => {
     {
       img: "athena.png",
       title: "Mythology",
-      link: 31,
+      link: 20,
     },
   ]);
   function link(linkId) {
