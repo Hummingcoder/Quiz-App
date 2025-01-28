@@ -50,12 +50,14 @@ const App = () => {
         const res = await fetch(link);
         const data = await res.json();
 
-        data.results && data.results.length > 0
-          ? setques(data.results)
-          : setError("something went wrong");
-        setLoading(false);
+        if (data.results && data.results.length > 0) {
+          setques(data.results);
+          setScores((prev) => ({ ...prev, total: data.results.length * 12 }));
+        } else {
+          setError("something went wrong");
+        }
 
-        setScores((prev) => ({ ...prev, total: data.results.length * 12 }));
+        setLoading(false);
       } catch (err) {
         console.log(err);
       }

@@ -5,34 +5,38 @@ const Home = ({ getLink }) => {
     {
       img: "knowledge.png",
       title: "General Knowledge",
-      link: "https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple",
+      link: 9,
     },
     {
       img: "history-book.png",
       title: "History",
-      link: "https://opentdb.com/api.php?amount=9&category=23&difficulty=medium&type=multiple",
+      link: 23,
     },
     {
-      img: "watching-a-movie.png",
-      title: "Movies & Entertainment",
-      link: "https://opentdb.com/api.php?amount=7&category=11&difficulty=medium&type=multiple",
+      img: "science.png",
+      title: "Science & Nature",
+      link: 17,
     },
     {
       img: "earth.png",
       title: "Geography",
-      link: "https://opentdb.com/api.php?amount=11&category=22&difficulty=medium&type=multiple",
+      link: 22,
     },
     {
-      img: "car.png",
-      title: "Vehicle",
-      link: "https://opentdb.com/api.php?amount=8&category=28&difficulty=medium&type=multiple",
+      img: "animals.png",
+      title: "Animals",
+      link: 27,
     },
     {
-      img: "straw-hat.png",
-      title: "Anime & Manga",
-      link: "https://opentdb.com/api.php?amount=12&category=31&difficulty=medium&type=multiple",
+      img: "athena.png",
+      title: "Mythology",
+      link: 31,
     },
   ]);
+  function link(linkId) {
+    const amount = Math.floor(Math.random() * (16 - 6 + 1)) + 6;
+    return `https://opentdb.com/api.php?amount=${amount}&category=${linkId}&difficulty=easy&type=multiple`;
+  }
 
   return (
     <div className="w-full h-fit border rounded-md min-h-[90vh] pt-4 pb-20">
@@ -51,7 +55,7 @@ const Home = ({ getLink }) => {
         <div className="flex flex-wrap gap-3 lg:gap-5 items-center justify-center text-base lg:text-lg">
           {categories.map((cat) => (
             <button
-              onClick={() => getLink("quiz", cat.link)}
+              onClick={() => getLink("quiz", link(cat.link))}
               className="w-fit flex font-semibold items-center justify-center gap-2 px-3 md:px-7 py-2 md:py-3 border bg-gradient-to-b from-white to-yellow-200 hover:scale-[102%]
                 active:border-2 focus:border-2  border-black rounded-md cursor-pointer shadow-md"
               key={cat.title}

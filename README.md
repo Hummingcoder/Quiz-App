@@ -32,21 +32,21 @@ Put your brain to the test and show off your trivia skills! 🏆
 
 Travel back in time and explore the fascinating events of the past. ⏳
 
-### 3. 🎥 Movies
+### 3. 🔬 Science & Nature
 
-Lights, camera, action! Dive into the world of cinema and prove your movie expertise. 🍿
+Uncover the mysteries of the natural world and scientific discoveries. 🧪🌱
 
 ### 4. 🗺️ Geography
 
 Take a tour around the globe and show how much you know about our planet. 🌎
 
-### 5. 🚗 Vehicles
+### 5. 🦁 Animals
 
-Are you a car enthusiast? Buckle up and take this thrilling ride! 🚙
+Step into the animal kingdom and prove you're a wildlife expert! 🐾
 
-### 6. 🌀 Anime
+### 6. ⚡ Mythology
 
-Calling all otakus! Test your anime knowledge and show you’re a true fan. 🎌
+Delve into legendary tales and mythical worlds across cultures. 🏺✨
 
 ---
 
